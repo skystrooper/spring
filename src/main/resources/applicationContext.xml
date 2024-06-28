@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Customer" class="com.Customer">
+        <property name="firstName" value="John"/>
+        <property name="lastName" value="Doe"/>
+        <property name="email" value="john.doe@example.com"/>
+        <property name="phone" value="123-456-7890"/>
+        <property name="gender" value="Male"/>
+    </bean>
+</beans>
